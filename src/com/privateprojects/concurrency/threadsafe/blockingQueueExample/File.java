@@ -1,9 +1,8 @@
 package com.privateprojects.concurrency.threadsafe.blockingQueueExample;
 
-import com.sun.media.jfxmedia.track.Track;
 import org.omg.IOP.Encoding;
+
 import java.nio.ByteBuffer;
-import java.util.Stack;
 
 /*FAKE FILE SYSTEM*/
 

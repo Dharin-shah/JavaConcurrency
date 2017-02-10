@@ -1,14 +1,13 @@
 package com.privateprojects.concurrency;
 
-import com.privateprojects.concurrency.threadsafe.*;
+import com.privateprojects.concurrency.threadsafe.DelegatingVehicleTracker;
 import com.privateprojects.concurrency.threadsafe.Point;
-import com.privateprojects.concurrency.threadsafe.blockingQueueExample.*;
+import com.privateprojects.concurrency.threadsafe.blockingQueueExample.Entry;
+import com.privateprojects.concurrency.threadsafe.blockingQueueExample.FileCrawler;
+import com.privateprojects.concurrency.threadsafe.blockingQueueExample.Indexer;
 
-import java.io.*;
 import java.io.File;
-import java.util.Map;
-
-import java.awt.*;
+import java.io.FileFilter;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.LinkedBlockingQueue;

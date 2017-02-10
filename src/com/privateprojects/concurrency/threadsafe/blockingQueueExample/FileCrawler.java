@@ -1,9 +1,7 @@
 package com.privateprojects.concurrency.threadsafe.blockingQueueExample;
 
-import java.io.*;
-import java.io.File;
+import java.io.FileFilter;
 import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.LinkedBlockingDeque;
 
 /**
  * Created by Dharin on 2/8/2017.
